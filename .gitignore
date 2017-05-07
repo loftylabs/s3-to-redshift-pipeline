@@ -1,0 +1,9 @@
+.idea/
+venv/
+
+notes.txt
+.DS_Store
+
+*.pyc
+
+celerybeat-schedule

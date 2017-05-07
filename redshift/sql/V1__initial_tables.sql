@@ -1,0 +1,15 @@
+CREATE TABLE titanic (
+  PasengerId INT NOT NULL PRIMARY KEY distkey sortkey,
+  Survived BOOLEAN NOT NULL,
+  Pclass SMALLINT NOT NULL,
+  Name VARCHAR(128) NOT NULL,
+  Sex VARCHAR(8) NOT NULL,
+  Age DECIMAL(3,1),
+  SibSp SMALLINT NOT NULL,
+  Parch SMALLINT NOT NULL,
+  Ticket VARCHAR(32) NOT NULL,
+  Fare DECIMAL(8,2),
+  Cabin VARCHAR(16) NULL,
+  Embarked CHAR(1)
+);
+
