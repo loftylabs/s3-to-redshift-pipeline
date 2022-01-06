@@ -5,7 +5,7 @@ backports.shutil-get-terminal-size==1.0.0
 billiard==3.5.0.2
 boto3==1.4.4
 botocore==1.5.39
-celery==4.0.2
+celery==5.2.2
 decorator==4.0.11
 docutils==0.13.1
 enum34==1.1.6
